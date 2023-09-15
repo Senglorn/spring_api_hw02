@@ -6,7 +6,7 @@ FROM openjdk:19-jdk
 WORKDIR /app
 
 # Copy the executable JAR file and any other necessary files
-COPY target/soccer_date-0.0.1-SNAPSHOT.jar /app
+COPY target/Assigment-Rest.api-0.0.1-SNAPSHOT.jar /app
 
 # Expose the port on which your Spring application will run (change as per your application)
 EXPOSE 8080
