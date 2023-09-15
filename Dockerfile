@@ -9,7 +9,7 @@ WORKDIR /app
 COPY target/Assigment-Rest.api-0.0.1-SNAPSHOT.jar /app
 
 # Expose the port on which your Spring application will run (change as per your application)
-EXPOSE 8080
+EXPOSE 8989
 
 # Set the command to run your Spring application when the container starts
 CMD ["java", "-jar", "/app/soccer_date-0.0.1-SNAPSHOT.jar"]

@@ -29,7 +29,7 @@ pipeline {
                        echo 'No existing container'
                     }
                 }
-                sh 'docker run -d -p 8181:8080 --name ${MY_IMAGE} ${MY_IMAGE}'
+                sh 'docker run -d -p 8181:8989 --name ${MY_IMAGE} ${MY_IMAGE}'
             }
         }
     }
