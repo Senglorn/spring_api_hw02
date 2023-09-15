@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools{
-        maven 'maven'
+        Maven 'maven'
     }
     environment{
         MY_IMAGE='spring-image-001'
